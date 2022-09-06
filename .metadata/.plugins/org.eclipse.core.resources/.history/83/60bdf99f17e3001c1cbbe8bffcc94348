@@ -1,0 +1,47 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import = "java.util.ArrayList, com.kh.model.vo.Order" %>
+<%
+	//.getAttribute("키값"); => : OBJECT
+	String alertMsg = (String)request.getAttribute("alertMsg");
+	ArrayList<Order> list = (ArrayList<Order>)request.getAttribute("list");
+
+%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>주문 내역 결과 페이지</title>
+</head>
+<body>
+	
+	<h3>샌드위치 주문내역 확인</h3>
+	
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>

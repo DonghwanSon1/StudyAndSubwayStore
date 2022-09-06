@@ -1,0 +1,46 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>스크립팅 요소</title>
+</head>
+<body>
+	<h1>스크립팅 요소</h1>
+
+
+	<!-- HTML 주석 : 개발자도구탭에 노출 -->
+	<%-- JSP 주석 : 개발자도구탭에 노출 안됌! --%>
+	
+	<%
+		// 스크립틀릿 : 이 안에 일반적인 자바코드를 작성 (변수선언, 초기화, 제어문 등등)
+		
+		// 1~100까지의 누적합 구하기
+		
+		int result = 0;
+		for(int i=1; i <= 100; i++){
+			result += i;
+		}
+		System.out.println(result);
+	
+	%>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+</html>
